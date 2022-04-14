@@ -1,10 +1,5 @@
 fun main(){
     println(takeProduct())
-    var thing=Product("cabbage",2,40.00,"hygiene")
-    var those =Product("Gloves",2,40.0,"Hygiene")
-    var that = Product("Table",3,400.00,"other")
-    var all = mutableListOf<Product>(thing,those,that)
-
     var currentAcc= CurrentAccount("01234","Barclays",7000)
       currentAcc.deposit(100.00)
       currentAcc.withdraw(700.00)
