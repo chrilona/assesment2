@@ -27,7 +27,9 @@ println(" Account number is $accountNumber with balance $balance")
     }
 }
 class SavingAccount(accountNumber: String,accountName: String,balance: Int):CurrentAccount(accountNumber,accountName,balance){
-
+    override fun withdraw(amount: Double) {
+        super.withdraw(amount)
+    }
 
 
     }
