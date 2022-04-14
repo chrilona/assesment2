@@ -1,6 +1,6 @@
 fun main(){
-    println(takeProduct())
-    var currentAcc= CurrentAccount("01234","Barclays",7000)
+      println(takeProduct())
+      var currentAcc= CurrentAccount("01234","Barclays",7000)
       currentAcc.deposit(100.00)
       currentAcc.withdraw(700.00)
       currentAcc.details()
@@ -18,7 +18,7 @@ fun main(){
     }
     fun details(){
         var l =balance*2
-println(" Account number is $accountNumber with balance $balance")
+println(" Account number is $accountNumber with balance $l")
     }
 }
 class SavingAccount(accountNumber: String,accountName: String,balance: Int):CurrentAccount(accountNumber,accountName,balance){
